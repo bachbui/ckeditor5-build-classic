@@ -29,7 +29,7 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
-// import ParaBox from './paraBox/paraBox';
+import ParaBox from './paraBox/paraBox';
 import BlockQuote from './blockQuote/blockQuote';
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -59,7 +59,7 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 
 	// Custom plugins
-	// ParaBox,
+	ParaBox,
 	BlockQuote
 ];
 
