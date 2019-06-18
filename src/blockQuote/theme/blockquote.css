@@ -1,0 +1,10 @@
+block-quote[position="inset-left"] {
+  float: left;
+  max-width: 45%;
+  margin-right: 5%;
+}
+block-quote[position="inset-right"] {
+  float: right;
+  max-width: 45%;
+  margin-left: 5%;
+}
