@@ -81,7 +81,8 @@ ClassicEditor.defaultConfig = {
 			'undo',
 			'redo',
 			'|',
-			'blockQuote'
+			'blockQuote',
+			'paraBox'
 		]
 	},
 	blockQuote: {
